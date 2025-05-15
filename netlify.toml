@@ -1,0 +1,12 @@
+[build]
+  command = "pnpm run build"
+  publish = ".next"
+
+[dev]
+  command = "pnpm run dev"
+  port = 3000
+
+[[redirects]]
+  from = "/api/*"
+  to = "/api/:splat"
+  status = 200

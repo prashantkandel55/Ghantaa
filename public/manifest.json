@@ -1,0 +1,37 @@
+{
+  "name": "Ghantaa Time Tracking",
+  "short_name": "Ghantaa",
+  "description": "A mobile time tracking app for employees and managers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Clock In/Out",
+      "url": "/mobile",
+      "description": "Quickly clock in or out"
+    },
+    {
+      "name": "Admin Dashboard",
+      "url": "/mobile-admin",
+      "description": "Access the admin dashboard"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
